@@ -1,1 +1,13 @@
-hello
+<html>
+  <head>
+    <script language="JavaScript">
+      if ( window.location !== window.parent.location ) {
+  // The page is in an iframe
+        document.write("in iframe");
+} else {
+  // The page is not in an iframe
+  document.write("not in iframe");
+}
+    </script>
+  </head>
+</html>
