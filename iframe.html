@@ -5,6 +5,12 @@
     <div id="masthead">masthead is here</div>
     <div id="colophon">colophon is here</div>
     <div>other content</div>
-    <script language="JavaScript" scr="iframecontenthide.js"></script>
+    <script language="JavaScript">
+    if ( window.location !== window.parent.location ) {
+            // The page is in an iframe, hide specified element
+            document.getElementById("masthead").style.cssText += "display: none;";
+            document.getElementById("colophon").style.cssText += "display: none;";    
+      }
+    </script>
   </body>
 </html>
