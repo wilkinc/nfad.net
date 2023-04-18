@@ -8,18 +8,7 @@
   </head>
   <body>
     <div id="mycontent">content is here</div>
-    <script language="JavaScript">
-      if ( window.location !== window.parent.location ) {
-  // The page is in an iframe
-        //document.write("in iframe");
-        //document.getElementById("mycontent").classList.add('notinframe');
-      document.getElementById("mycontent").style.cssText += "display: none;";
-} else {
-  // The page is not in an iframe
-  //document.write("not in iframe");
-  //document.getElementById("mycontent").classList.add('inframe');
-  
-}
-    </script>
+    <div>other content</div>
+    <script language="JavaScript" scr="iframecontenthide.js"></script>
   </body>
 </html>
