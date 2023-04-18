@@ -4,10 +4,19 @@
       if ( window.location !== window.parent.location ) {
   // The page is in an iframe
         document.write("in iframe");
+        document.getElementById("mycontent").classList.add('notiniframe');
+
 } else {
   // The page is not in an iframe
   document.write("not in iframe");
+  document.getElementById("mycontent").classList.add('iniframe');
 }
     </script>
+    <style>
+      .inframe {border: 1px solid red}
+      .notinframe {border: 1px solid green}
+    </style>
   </head>
+  <body>
+    <div id="mycontent">content is here</div>
 </html>
