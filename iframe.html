@@ -11,13 +11,14 @@
     <script language="JavaScript">
       if ( window.location !== window.parent.location ) {
   // The page is in an iframe
-        document.write("in iframe");
-        document.getElementById("mycontent").classList.add('notinframe');
-
+        //document.write("in iframe");
+        //document.getElementById("mycontent").classList.add('notinframe');
+      document.getElementById("mycontent").style.cssText += "display: none;";
 } else {
   // The page is not in an iframe
-  document.write("not in iframe");
-  document.getElementById("mycontent").classList.add('inframe');
+  //document.write("not in iframe");
+  //document.getElementById("mycontent").classList.add('inframe');
+  
 }
     </script>
   </body>
