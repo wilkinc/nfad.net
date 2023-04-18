@@ -1,5 +1,13 @@
 <html>
   <head>
+    
+    <style>
+      .inframe {border: 1px solid red;}
+      .notinframe {border: 1px solid green;}
+    </style>
+  </head>
+  <body>
+    <div id="mycontent">content is here</div>
     <script language="JavaScript">
       if ( window.location !== window.parent.location ) {
   // The page is in an iframe
@@ -12,11 +20,5 @@
   document.getElementById("mycontent").classList.add('inframe');
 }
     </script>
-    <style>
-      .inframe {border: 1px solid red;}
-      .notinframe {border: 1px solid green;}
-    </style>
-  </head>
-  <body>
-    <div id="mycontent">content is here</div>
+  </body>
 </html>
