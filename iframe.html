@@ -4,12 +4,12 @@
       if ( window.location !== window.parent.location ) {
   // The page is in an iframe
         document.write("in iframe");
-        document.getElementById("mycontent").classList.add('notiniframe');
+        document.getElementById("mycontent").classList.add('notniframe');
 
 } else {
   // The page is not in an iframe
   document.write("not in iframe");
-  document.getElementById("mycontent").classList.add('iniframe');
+  document.getElementById("mycontent").classList.add('inframe');
 }
     </script>
     <style>
