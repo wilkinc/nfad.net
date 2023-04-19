@@ -6,7 +6,8 @@
     <div id="colophon">colophon is here</div>
     <div>other content</div>
     <script language="JavaScript">
-      body.onload = function() {hideStuff()};
+      
+      document.getElementsByTagName("BODY")[0].addEventListener("load", hideStuff);
       
       function hideStuff() {
     if ( window.location !== window.parent.location ) {
