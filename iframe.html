@@ -6,10 +6,14 @@
     <div id="colophon">colophon is here</div>
     <div>other content</div>
     <script language="JavaScript">
+      body.onload = function() {hideStuff()};
+      
+      function hideStuff() {
     if ( window.location !== window.parent.location ) {
             // The page is in an iframe, hide specified element
             document.getElementById("masthead").style.cssText += "display: none;";
             document.getElementById("colophon").style.cssText += "display: none;";    
+      }
       }
     </script>
   </body>
