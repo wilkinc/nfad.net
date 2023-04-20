@@ -13,11 +13,15 @@
       
     function hideStuff() {
       if ( window.location !== window.parent.location ) {
-            // The page is in an iframe, hide specified element
-            document.getElementById("masthead").style.cssText += "display: none;";
-            document.getElementById("colophon").style.cssText += "display: none;";    
-        }
+        // The page is in an iframe, hide specified element
+        
+        var el = document.getElementById("masthead”);
+        if (el) { el.style.cssText += "display: none;”;}
+                 
+        //document.getElementById("masthead").style.cssText += "display: none;";
+        document.getElementById("colophon").style.cssText += "display: none;";    
       }
+    }
     </script>
   </body>
 </html>
