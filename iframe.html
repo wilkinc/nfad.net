@@ -14,13 +14,14 @@
     function hideStuff() {
       if ( window.location !== window.parent.location ) {
         // The page is in an iframe, hide specified element
+        var myEl;
         
-//        varel=document.getElementById("masthead”);
-        var myEl = document.getElementById('masthead');
-//        if (myEl) { myEl.style.cssText += "display: none;”;}
+        myEl = document.getElementById('masthead');
         if (myEl) { myEl.style.cssText += 'display: none;'}
         //document.getElementById("masthead").style.cssText += "display: none;";
-        document.getElementById("colophon").style.cssText += "display: none;";    
+        
+        myEl = document.getElementById('colophon');
+        if (myEl) { myEl.style.cssText += 'display: none;'; }
       }
     }
     </script>
