@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>Maps Test</title>
-  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAllw7V6_6IrhTMgnPZ62fWF2p1LFPQjKc&callback=initialise"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAllw7V6_6IrhTMgnPZ62fWF2p1LFPQjKc&callback=myInit"></script>
 </head>
 <body>
   <form id='myform'>
   <input id="searchTextField" type="text" size="50">
   </form>
     <script>
-    function initialize() {
+    function myInit() {
   var input = document.getElementById('searchTextField');
   new google.maps.places.Autocomplete(input);
 }
