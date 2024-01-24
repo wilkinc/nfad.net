@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+<!-- OneTrust Cookies Consent Notice start for nfad.net -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/26369245-f062-41d9-97b0-789f101fb4a2/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="26369245-f062-41d9-97b0-789f101fb4a2" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for nfad.net -->
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W8FPWLM');</script>
+    <!-- End Google Tag Manager -->
+    
+    <title>Cat Jokes</title>
+    <link rel="canonical" href="https://nfad.net" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="nfad.css">
+  </head>
+  <body>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8FPWLM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div class="joke">
+    <p>Why did the cat cross the road?</p>
+    <p>The answer to this question is unknown, as cats are unpredictable animals. It could be for any number of reasons, such as to explore a new area, to chase a bug or bird, or simply out of curiosity.</p>
+    </div>
+    <div>
+      <p>What is a cat's favorite breakfast cereal?</p>
+      <p>There is no one answer to this question as cats have different preferences. Some cats may enjoy eating dry cat food or wet food for breakfast, while others may enjoy treats such as tuna or salmon.</p>
+    </div>
+    <hr>
+    <iframe src="iframe.html"></iframe>
+
+    <script>document.cookie = "cwusername=John Doe; expires=Thu, 18 Dec 2033 12:00:00 UTC";</script>
+
+    <!-- OneTrust Cookies Settings button start -->
+<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+<!-- OneTrust Cookies Settings button end -->
+
+    <!-- OneTrust Cookies List start -->
+<div id="ot-sdk-cookie-policy"></div>
+<!-- OneTrust Cookies List end -->
+  </body>
+</html>
